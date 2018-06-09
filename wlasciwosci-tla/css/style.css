@@ -1,0 +1,8 @@
+#tło {
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/29/23/05/beetroot-3440339_960_720.jpg");
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-position: top center;
+    background-size: 30%, 30%;
+    background-attachment: fixed; 
+}
