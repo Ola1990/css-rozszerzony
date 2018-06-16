@@ -1,0 +1,35 @@
+html {
+    font-size: 10px;
+}
+.container {
+    background-color: blue;
+    overflow: hidden;
+}
+.container-col, .container-col-right {
+    width: 50%;
+    height: 100px;
+    float: left;
+    transition: all 1s;
+    overflow: hidden;
+}
+.container-col {
+    background-color: chartreuse;
+}
+.container-col-right {
+    background-color: crimson;
+}
+@media(max-width: 680px) {
+    .container-col, .container-col-right {
+        float: none;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 400px) {
+    html {
+        font-size: 15px;
+    }
+    .container-col-right {
+        opacity: 0;
+    }
+}
